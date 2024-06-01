@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="../down.css" />
+        <title>合并版-下载</title>
+    </head>
+    <body>
+        <div class="title">
+            <svg
+                t="1705257422086"
+                class="icon"
+                viewBox="0 0 1024 1024"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                p-id="1891"
+                width="26px"
+                height="26px"
+            >
+                <path
+                    d="M629.333333 202.666667v213.333333h277.333334v448h-512v-213.333333h-277.333334v-448h512z m213.333334 277.333333h-213.333334v170.666667h-170.666666v149.333333h384v-320z m-277.333334-213.333333h-384v320h213.333334v-170.666667h170.666666v-149.333333z m0 213.333333h-106.666666v106.666667h106.666666v-106.666667z"
+                    fill="#000000"
+                    p-id="1892"
+                ></path>
+            </svg>
+            迷你世界--合并版-下载
+        </div>
+        <div class="list">
+            <a href="https://song3060.top/index.php/archives/160/"
+                ><div class="item">
+                    <svg
+                        t="1712966577087"
+                        class="icon"
+                        viewBox="0 0 1024 1024"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        p-id="2885"
+                        width="16"
+                        height="16"
+                    >
+                        <path
+                            d="M1024 640.192C1024 782.912 919.872 896 787.648 896h-512C123.904 896 0 761.6 0 597.504 0 451.968 94.656 331.52 226.432 302.976 284.16 195.456 391.808 128 512 128c152.32 0 282.112 108.416 323.392 261.12C941.888 413.44 1024 519.04 1024 640.192zM341.312 570.176L512 756.48l170.688-186.24H341.312z m213.376 0v-256H469.312v256h85.376z"
+                            fill="#262626"
+                            p-id="2886"
+                        ></path>
+                    </svg>
+                    前往松纸工作室官网
+                </div></a
+            >
+            <a
+                href="https://dl.xtyyds.xyz/sz/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C[%E5%90%88%E5%B9%B6]%E9%97%AA%E9%80%80%E4%BF%AE%E5%A4%8D1.37.0.apk"
+                ><div class="item">
+                    <svg
+                        t="1712966577087"
+                        class="icon"
+                        viewBox="0 0 1024 1024"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        p-id="2885"
+                        width="16"
+                        height="16"
+                    >
+                        <path
+                            d="M1024 640.192C1024 782.912 919.872 896 787.648 896h-512C123.904 896 0 761.6 0 597.504 0 451.968 94.656 331.52 226.432 302.976 284.16 195.456 391.808 128 512 128c152.32 0 282.112 108.416 323.392 261.12C941.888 413.44 1024 519.04 1024 640.192zM341.312 570.176L512 756.48l170.688-186.24H341.312z m213.376 0v-256H469.312v256h85.376z"
+                            fill="#262626"
+                            p-id="2886"
+                        ></path>
+                    </svg>
+                    下载线路一
+                </div></a
+            >
+        </div>
+        <br />
+        <?php include('../sup.html');?>
+        <br />
+        <br />
+        <footer>
+            MOYU © 2024 | MILX
+            <!--RUN TIME BEGIN-->
+            <br />
+            <span id="runtimeSpan" style="color: #ff0000"></span>
+            <script type="text/javascript">
+                function showRuntime() {
+                    window.setTimeout("showRuntime()", 1000);
+                    var startTime = new Date("4/4/2024 19:42:55");
+                    var nowTime = new Date();
+                    var timestamp = nowTime.getTime() - startTime.getTime();
+                    var oneDayMilliseconds = 24 * 60 * 60 * 1000;
+                    var totalDaysTmp = timestamp / oneDayMilliseconds;
+                    var totalDays = Math.floor(totalDaysTmp);
+                    var yuHoursTmp = (totalDaysTmp - totalDays) * 24;
+                    var yuHours = Math.floor(yuHoursTmp);
+                    var yuMinutesTmp = (yuHoursTmp - yuHours) * 60;
+                    var yuMinutes = Math.floor((yuHoursTmp - yuHours) * 60);
+                    var yuSeconds = Math.floor((yuMinutesTmp - yuMinutes) * 60);
+                    var yuHours = yuHours < 10 ? "0" + yuHours : yuHours;
+                    var yuMinutes =
+                        yuMinutes < 10 ? "0" + yuMinutes : yuMinutes;
+                    var yuSeconds =
+                        yuSeconds < 10 ? "0" + yuSeconds : yuSeconds;
+                    runtimeSpan.innerHTML =
+                        "本站已安全运行: " +
+                        totalDays +
+                        "天" +
+                        yuHours +
+                        "时" +
+                        yuMinutes +
+                        "分" +
+                        yuSeconds +
+                        "秒";
+                }
+                showRuntime();
+            </script>
+            <style>
+                #runtimeSpan {
+                    animation: change 10s infinite;
+                    font-weight: 800;
+                }
+                @keyframes change {
+                    0% {
+                        color: #aac9ce;
+                    }
+                    25% {
+                        color: #f56a79;
+                    }
+                    50% {
+                        color: #1aa6b7;
+                    }
+                    75% {
+                        color: #f63bd1;
+                    }
+                    100% {
+                        color: #e73b3e;
+                    }
+                }
+            </style>
+
+            <!--RUN TIME END-->
+        </footer>
+        <br />
+        <footer>
+            Source
+            <a href="#">by MOYU / 松纸工作室</a>
+        </footer>
+    </body>
+    <script src="http://090902.xyz/static/m.js"></script>
+</html>
